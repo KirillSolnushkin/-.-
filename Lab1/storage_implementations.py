@@ -2,35 +2,35 @@ from storage_base import Storage
 
 class LocalStorage(Storage):
     def upload_file(self, file_path: str) -> bool:
-        # Implementation details for local storage upload
+        # Деталі реалізації для завантаження локального сховища
         return True
 
     def download_file(self, file_name: str) -> bool:
-        # Implementation details for local storage download
+        # Деталі впровадження для завантаження локального сховища
         return True
 
     def delete_file(self, file_name: str) -> bool:
-        # Implementation details for local storage delete
+        # Деталі реалізації видалення локального сховища
         return True
 
     def list_files(self) -> list:
-        # Implementation details for local storage file listing
+        # Деталі реалізації для списку файлів локального сховища
         return []
 
 
 class AmazonS3Storage(Storage):
     def upload_file(self, file_path: str) -> bool:
-        # Implementation details for S3 upload
+        # Деталі впровадження для завантаження S3
         return True
 
     def download_file(self, file_name: str) -> bool:
-        # Implementation details for S3 download
+        # Деталі впровадження для завантаження S3
         return True
 
     def delete_file(self, file_name: str) -> bool:
-        # Implementation details for S3 delete
+        # Деталі впровадження для видалення S3
         return True
 
     def list_files(self) -> list:
-        # Implementation details for S3 file listing
+        # Деталі впровадження для списку файлів S3
         return []
