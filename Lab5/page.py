@@ -2,7 +2,6 @@ from renderer import Renderer
 from product import Product
 
 class Page:
-    # Базовий клас для сторінок
     def __init__(self, renderer: Renderer):
         self.renderer = renderer
 

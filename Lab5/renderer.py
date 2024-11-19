@@ -1,5 +1,4 @@
 class Renderer:
-    # Базовий клас для різних типів відображення
     def render_title(self, title: str) -> str:
         pass
 
